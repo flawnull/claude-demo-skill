@@ -1,0 +1,19 @@
+#!/bin/sh
+# Word-level timings for captions and click sync, from any audio file (local whisper.cpp, free).
+#   words narration.wav            writes narration.words.json: [{"w":"Connect","start":0.12,"end":0.48}, ...]
+set -eu
+[ $# -eq 1 ] || { sed -n 2,3p "$0"; exit 1; }
+in=$1; base=${in%.*}
+model="${WHISPER_MODEL:-$HOME/.cache/whisper/ggml-small.en.bin}"
+[ -f "$model" ] || { echo "words: no whisper model at $model. Run ./setup.sh once." >&2; exit 1; }
+tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
+ffmpeg -loglevel error -y -i "$in" -ar 16000 -ac 1 "$tmp/a.wav"
+whisper-cli -m "${WHISPER_MODEL:-$HOME/.cache/whisper/ggml-small.en.bin}" -f "$tmp/a.wav" -ml 1 -sow -oj -of "$tmp/out" >/dev/null 2>&1
+python3 - "$tmp/out.json" "$base.words.json" <<'PY'
+import json, sys
+segs = json.load(open(sys.argv[1]))["transcription"]
+words = [{"w": s["text"].strip(), "start": s["offsets"]["from"] / 1000, "end": s["offsets"]["to"] / 1000}
+         for s in segs if s["text"].strip()]
+json.dump(words, open(sys.argv[2], "w"), indent=0)
+print(sys.argv[2], len(words), "words")
+PY

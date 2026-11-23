@@ -1,0 +1,10 @@
+node_modules/
+tts-venv
+cv-venv
+.DS_Store
+**/build/
+**/renders/
+examples/*/assets/vo/take*.wav
+examples/*/assets/vo/*.words.json
+examples/*/voice.log
+examples/*/build-run.log

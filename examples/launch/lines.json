@@ -1,0 +1,8 @@
+[
+ { "id": "pain", "text": "Every AI demo video looks the same. Slides, a robot voice, and music from a toy ad." },
+ { "id": "reveal", "text": "So we built demo. A Claude Code skill that makes the whole film." },
+ { "id": "how", "text": "Give it a brief. It writes the script, voices it in one take, records your real app, and lands every cut on the beat." },
+ { "id": "checks", "text": "Then it checks its own work. Any scene under eight out of ten gets rendered again. Any overlap fails the build." },
+ { "id": "free", "text": "Two hundred and ten recorded sounds. Free, and on your machine." },
+ { "id": "close", "text": "This film was made with it. It's on GitHub." }
+]

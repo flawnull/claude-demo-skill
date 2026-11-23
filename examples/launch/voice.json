@@ -1,0 +1,504 @@
+{
+ "pain": {
+  "src": "assets/vo/pain.wav",
+  "dur": 6.88,
+  "text": "Every AI demo video looks the same. Slides, a robot voice, and music from a toy ad.",
+  "words": [
+   {
+    "w": "Every",
+    "start": 0,
+    "end": 0.5
+   },
+   {
+    "w": "AI",
+    "start": 0.5,
+    "end": 0.69
+   },
+   {
+    "w": "demo",
+    "start": 0.69,
+    "end": 1.1
+   },
+   {
+    "w": "video",
+    "start": 1.1,
+    "end": 1.6
+   },
+   {
+    "w": "looks",
+    "start": 1.6,
+    "end": 2.1
+   },
+   {
+    "w": "the",
+    "start": 2.1,
+    "end": 2.4
+   },
+   {
+    "w": "same.",
+    "start": 2.4,
+    "end": 2.84
+   },
+   {
+    "w": "Slides,",
+    "start": 2.84,
+    "end": 3.76
+   },
+   {
+    "w": "a",
+    "start": 3.76,
+    "end": 3.86
+   },
+   {
+    "w": "robot",
+    "start": 3.86,
+    "end": 4.39
+   },
+   {
+    "w": "voice,",
+    "start": 4.39,
+    "end": 5.1
+   },
+   {
+    "w": "and",
+    "start": 5.1,
+    "end": 5.67
+   },
+   {
+    "w": "music",
+    "start": 5.67,
+    "end": 5.83
+   },
+   {
+    "w": "from",
+    "start": 5.83,
+    "end": 6.1
+   },
+   {
+    "w": "a",
+    "start": 6.1,
+    "end": 6.13
+   },
+   {
+    "w": "toy",
+    "start": 6.13,
+    "end": 6.56
+   },
+   {
+    "w": "ad.",
+    "start": 6.56,
+    "end": 6.88
+   }
+  ]
+ },
+ "reveal": {
+  "src": "assets/vo/reveal.wav",
+  "dur": 4.8,
+  "text": "So we built demo. A Claude Code skill that makes the whole film.",
+  "words": [
+   {
+    "w": "So",
+    "start": 0,
+    "end": 0.25
+   },
+   {
+    "w": "we",
+    "start": 0.25,
+    "end": 0.5
+   },
+   {
+    "w": "built",
+    "start": 0.5,
+    "end": 1.13
+   },
+   {
+    "w": "demo.",
+    "start": 1.13,
+    "end": 2.04
+   },
+   {
+    "w": "A",
+    "start": 2.04,
+    "end": 2.11
+   },
+   {
+    "w": "plot",
+    "start": 2.11,
+    "end": 2.42
+   },
+   {
+    "w": "code",
+    "start": 2.42,
+    "end": 2.69
+   },
+   {
+    "w": "skill",
+    "start": 2.69,
+    "end": 3.05
+   },
+   {
+    "w": "that",
+    "start": 3.05,
+    "end": 3.34
+   },
+   {
+    "w": "makes",
+    "start": 3.34,
+    "end": 3.72
+   },
+   {
+    "w": "the",
+    "start": 3.72,
+    "end": 3.91
+   },
+   {
+    "w": "whole",
+    "start": 3.91,
+    "end": 4.27
+   },
+   {
+    "w": "film.",
+    "start": 4.27,
+    "end": 4.8
+   }
+  ]
+ },
+ "how": {
+  "src": "assets/vo/how.wav",
+  "dur": 8.78,
+  "text": "Give it a brief. It writes the script, voices it in one take, records your real app, and lands every cut on the beat.",
+  "words": [
+   {
+    "w": "Give",
+    "start": 0,
+    "end": 0.38
+   },
+   {
+    "w": "it",
+    "start": 0.38,
+    "end": 0.52
+   },
+   {
+    "w": "a",
+    "start": 0.52,
+    "end": 0.6
+   },
+   {
+    "w": "brief.",
+    "start": 0.6,
+    "end": 1.32
+   },
+   {
+    "w": "It",
+    "start": 1.32,
+    "end": 1.48
+   },
+   {
+    "w": "writes",
+    "start": 1.48,
+    "end": 1.88
+   },
+   {
+    "w": "the",
+    "start": 1.88,
+    "end": 2.12
+   },
+   {
+    "w": "script,",
+    "start": 2.12,
+    "end": 2.68
+   },
+   {
+    "w": "voices",
+    "start": 2.68,
+    "end": 3.23
+   },
+   {
+    "w": "it",
+    "start": 3.23,
+    "end": 3.41
+   },
+   {
+    "w": "in",
+    "start": 3.41,
+    "end": 3.59
+   },
+   {
+    "w": "one",
+    "start": 3.59,
+    "end": 4.14
+   },
+   {
+    "w": "take,",
+    "start": 4.14,
+    "end": 4.44
+   },
+   {
+    "w": "records",
+    "start": 4.44,
+    "end": 5.04
+   },
+   {
+    "w": "your",
+    "start": 5.04,
+    "end": 5.38
+   },
+   {
+    "w": "real",
+    "start": 5.38,
+    "end": 5.72
+   },
+   {
+    "w": "app,",
+    "start": 5.72,
+    "end": 6.17
+   },
+   {
+    "w": "and",
+    "start": 6.17,
+    "end": 6.45
+   },
+   {
+    "w": "lands",
+    "start": 6.45,
+    "end": 7.27
+   },
+   {
+    "w": "every",
+    "start": 7.27,
+    "end": 7.44
+   },
+   {
+    "w": "cut",
+    "start": 7.44,
+    "end": 7.64
+   },
+   {
+    "w": "on",
+    "start": 7.64,
+    "end": 7.81
+   },
+   {
+    "w": "the",
+    "start": 7.81,
+    "end": 8.16
+   },
+   {
+    "w": "beat.",
+    "start": 8.16,
+    "end": 8.78
+   }
+  ]
+ },
+ "checks": {
+  "src": "assets/vo/checks.wav",
+  "dur": 7.82,
+  "text": "Then it checks its own work. Any scene under eight out of ten gets rendered again. Any overlap fails the build.",
+  "words": [
+   {
+    "w": "Then",
+    "start": 0,
+    "end": 0.38
+   },
+   {
+    "w": "it",
+    "start": 0.38,
+    "end": 0.52
+   },
+   {
+    "w": "checks",
+    "start": 0.52,
+    "end": 1.05
+   },
+   {
+    "w": "its",
+    "start": 1.05,
+    "end": 1.31
+   },
+   {
+    "w": "own",
+    "start": 1.31,
+    "end": 1.57
+   },
+   {
+    "w": "work.",
+    "start": 1.57,
+    "end": 2.22
+   },
+   {
+    "w": "Any",
+    "start": 2.22,
+    "end": 2.43
+   },
+   {
+    "w": "scene",
+    "start": 2.43,
+    "end": 2.78
+   },
+   {
+    "w": "under",
+    "start": 2.78,
+    "end": 3.13
+   },
+   {
+    "w": "eight",
+    "start": 3.13,
+    "end": 3.48
+   },
+   {
+    "w": "out",
+    "start": 3.48,
+    "end": 3.69
+   },
+   {
+    "w": "of",
+    "start": 3.69,
+    "end": 3.83
+   },
+   {
+    "w": "10",
+    "start": 3.83,
+    "end": 4.25
+   },
+   {
+    "w": "gets",
+    "start": 4.25,
+    "end": 4.53
+   },
+   {
+    "w": "rendered",
+    "start": 4.53,
+    "end": 5.15
+   },
+   {
+    "w": "again.",
+    "start": 5.15,
+    "end": 5.66
+   },
+   {
+    "w": "Any",
+    "start": 5.66,
+    "end": 5.9
+   },
+   {
+    "w": "overlap",
+    "start": 5.9,
+    "end": 6.48
+   },
+   {
+    "w": "fails",
+    "start": 6.48,
+    "end": 6.89
+   },
+   {
+    "w": "the",
+    "start": 6.89,
+    "end": 7.13
+   },
+   {
+    "w": "build.",
+    "start": 7.13,
+    "end": 7.82
+   }
+  ]
+ },
+ "free": {
+  "src": "assets/vo/free.wav",
+  "dur": 5,
+  "text": "Two hundred and ten recorded sounds. Free, and on your machine.",
+  "words": [
+   {
+    "w": "210",
+    "start": 0,
+    "end": 0.91
+   },
+   {
+    "w": "recorded",
+    "start": 0.91,
+    "end": 1.72
+   },
+   {
+    "w": "sounds,",
+    "start": 1.72,
+    "end": 2.83
+   },
+   {
+    "w": "free,",
+    "start": 2.83,
+    "end": 3.16
+   },
+   {
+    "w": "and",
+    "start": 3.16,
+    "end": 3.44
+   },
+   {
+    "w": "on",
+    "start": 3.44,
+    "end": 3.72
+   },
+   {
+    "w": "your",
+    "start": 3.72,
+    "end": 4.02
+   },
+   {
+    "w": "machine.",
+    "start": 4.02,
+    "end": 5
+   }
+  ]
+ },
+ "close": {
+  "src": "assets/vo/close.wav",
+  "dur": 2.592,
+  "text": "This film was made with it. It's on GitHub.",
+  "words": [
+   {
+    "w": "This",
+    "start": 0,
+    "end": 0.26
+   },
+   {
+    "w": "film",
+    "start": 0.26,
+    "end": 0.52
+   },
+   {
+    "w": "was",
+    "start": 0.52,
+    "end": 0.7
+   },
+   {
+    "w": "made",
+    "start": 0.7,
+    "end": 0.97
+   },
+   {
+    "w": "with",
+    "start": 0.97,
+    "end": 1.23
+   },
+   {
+    "w": "it.",
+    "start": 1.23,
+    "end": 1.56
+   },
+   {
+    "w": "It's",
+    "start": 1.56,
+    "end": 1.82
+   },
+   {
+    "w": "on",
+    "start": 1.82,
+    "end": 1.95
+   },
+   {
+    "w": "GitHub.",
+    "start": 1.95,
+    "end": 2.6
+   }
+  ]
+ }
+}

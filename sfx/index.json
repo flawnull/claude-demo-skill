@@ -1,0 +1,1892 @@
+[
+ {
+  "name": "cartoon-cc0-spring-02",
+  "category": "cartoon",
+  "duration": 1.048,
+  "file": "cartoon-cc0-spring-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "spring_02"
+ },
+ {
+  "name": "cartoon-cc0-spring-04",
+  "category": "cartoon",
+  "duration": 0.324,
+  "file": "cartoon-cc0-spring-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "spring_04"
+ },
+ {
+  "name": "cartoon-cc0-spring-06",
+  "category": "cartoon",
+  "duration": 0.701,
+  "file": "cartoon-cc0-spring-06.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "spring_06"
+ },
+ {
+  "name": "cartoon-cc0-spring-08",
+  "category": "cartoon",
+  "duration": 0.541,
+  "file": "cartoon-cc0-spring-08.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "spring_08"
+ },
+ {
+  "name": "chime",
+  "category": "notification",
+  "duration": 1.145,
+  "file": "chime.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "bell_01 (copy of notification-cc0-bell-01)"
+ },
+ {
+  "name": "click-kenney-back-001",
+  "category": "click",
+  "duration": 0.057,
+  "file": "click-kenney-back-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "back_001"
+ },
+ {
+  "name": "click-kenney-back-002",
+  "category": "click",
+  "duration": 0.067,
+  "file": "click-kenney-back-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "back_002"
+ },
+ {
+  "name": "click-kenney-back-003",
+  "category": "click",
+  "duration": 0.09,
+  "file": "click-kenney-back-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "back_003"
+ },
+ {
+  "name": "click-kenney-back-004",
+  "category": "click",
+  "duration": 0.069,
+  "file": "click-kenney-back-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "back_004"
+ },
+ {
+  "name": "click-kenney-click-001",
+  "category": "click",
+  "duration": 0.097,
+  "file": "click-kenney-click-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "click_001"
+ },
+ {
+  "name": "click-kenney-scroll-001",
+  "category": "click",
+  "duration": 0.957,
+  "file": "click-kenney-scroll-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_001"
+ },
+ {
+  "name": "click-kenney-scroll-002",
+  "category": "click",
+  "duration": 1,
+  "file": "click-kenney-scroll-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_002"
+ },
+ {
+  "name": "click-kenney-scroll-003",
+  "category": "click",
+  "duration": 1,
+  "file": "click-kenney-scroll-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_003"
+ },
+ {
+  "name": "click-kenney-scroll-004",
+  "category": "click",
+  "duration": 0.96,
+  "file": "click-kenney-scroll-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_004"
+ },
+ {
+  "name": "click-kenney-scroll-005",
+  "category": "click",
+  "duration": 0.96,
+  "file": "click-kenney-scroll-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_005"
+ },
+ {
+  "name": "click-kenney-select-001",
+  "category": "click",
+  "duration": 0.036,
+  "file": "click-kenney-select-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_001"
+ },
+ {
+  "name": "click-kenney-select-002",
+  "category": "click",
+  "duration": 0.04,
+  "file": "click-kenney-select-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_002"
+ },
+ {
+  "name": "click-kenney-select-003",
+  "category": "click",
+  "duration": 0.203,
+  "file": "click-kenney-select-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_003"
+ },
+ {
+  "name": "click-kenney-select-004",
+  "category": "click",
+  "duration": 0.201,
+  "file": "click-kenney-select-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_004"
+ },
+ {
+  "name": "click-kenney-select-005",
+  "category": "click",
+  "duration": 0.203,
+  "file": "click-kenney-select-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_005"
+ },
+ {
+  "name": "click-kenney-select-006",
+  "category": "click",
+  "duration": 0.2,
+  "file": "click-kenney-select-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_006"
+ },
+ {
+  "name": "click-kenney-select-007",
+  "category": "click",
+  "duration": 0.046,
+  "file": "click-kenney-select-007.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_007"
+ },
+ {
+  "name": "click-kenney-select-008",
+  "category": "click",
+  "duration": 0.041,
+  "file": "click-kenney-select-008.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_008"
+ },
+ {
+  "name": "click-kenney-switch-001",
+  "category": "click",
+  "duration": 0.128,
+  "file": "click-kenney-switch-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_001"
+ },
+ {
+  "name": "click-kenney-switch-002",
+  "category": "click",
+  "duration": 0.133,
+  "file": "click-kenney-switch-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_002"
+ },
+ {
+  "name": "click-kenney-switch-003",
+  "category": "click",
+  "duration": 0.209,
+  "file": "click-kenney-switch-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_003"
+ },
+ {
+  "name": "click-kenney-switch-004",
+  "category": "click",
+  "duration": 0.147,
+  "file": "click-kenney-switch-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_004"
+ },
+ {
+  "name": "click-kenney-switch-005",
+  "category": "click",
+  "duration": 0.146,
+  "file": "click-kenney-switch-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_005"
+ },
+ {
+  "name": "click-kenney-switch-006",
+  "category": "click",
+  "duration": 0.131,
+  "file": "click-kenney-switch-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_006"
+ },
+ {
+  "name": "click-kenney-switch-007",
+  "category": "click",
+  "duration": 0.135,
+  "file": "click-kenney-switch-007.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "switch_007"
+ },
+ {
+  "name": "click-kenney-tick-004",
+  "category": "click",
+  "duration": 0.055,
+  "file": "click-kenney-tick-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "tick_004"
+ },
+ {
+  "name": "click-kenney-toggle-001",
+  "category": "click",
+  "duration": 0.097,
+  "file": "click-kenney-toggle-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "toggle_001"
+ },
+ {
+  "name": "click-kenney-toggle-002",
+  "category": "click",
+  "duration": 0.095,
+  "file": "click-kenney-toggle-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "toggle_002"
+ },
+ {
+  "name": "click-kenney-toggle-003",
+  "category": "click",
+  "duration": 0.097,
+  "file": "click-kenney-toggle-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "toggle_003"
+ },
+ {
+  "name": "click-kenney-toggle-004",
+  "category": "click",
+  "duration": 0.059,
+  "file": "click-kenney-toggle-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "toggle_004"
+ },
+ {
+  "name": "click-soft",
+  "category": "click",
+  "duration": 0.097,
+  "file": "click-soft.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "click_001 (copy of click-kenney-click-001)"
+ },
+ {
+  "name": "click-ui-click3",
+  "category": "click",
+  "duration": 0.054,
+  "file": "click-ui-click3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "click3"
+ },
+ {
+  "name": "click-ui-switch10",
+  "category": "click",
+  "duration": 0.081,
+  "file": "click-ui-switch10.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch10"
+ },
+ {
+  "name": "click-ui-switch12",
+  "category": "click",
+  "duration": 0.044,
+  "file": "click-ui-switch12.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch12"
+ },
+ {
+  "name": "click-ui-switch16",
+  "category": "click",
+  "duration": 0.086,
+  "file": "click-ui-switch16.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch16"
+ },
+ {
+  "name": "click-ui-switch18",
+  "category": "click",
+  "duration": 0.089,
+  "file": "click-ui-switch18.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch18"
+ },
+ {
+  "name": "click-ui-switch2",
+  "category": "click",
+  "duration": 0.088,
+  "file": "click-ui-switch2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch2"
+ },
+ {
+  "name": "click-ui-switch21",
+  "category": "click",
+  "duration": 0.409,
+  "file": "click-ui-switch21.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch21"
+ },
+ {
+  "name": "click-ui-switch23",
+  "category": "click",
+  "duration": 0.165,
+  "file": "click-ui-switch23.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch23"
+ },
+ {
+  "name": "click-ui-switch25",
+  "category": "click",
+  "duration": 0.139,
+  "file": "click-ui-switch25.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch25"
+ },
+ {
+  "name": "click-ui-switch27",
+  "category": "click",
+  "duration": 0.078,
+  "file": "click-ui-switch27.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch27"
+ },
+ {
+  "name": "click-ui-switch29",
+  "category": "click",
+  "duration": 0.134,
+  "file": "click-ui-switch29.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch29"
+ },
+ {
+  "name": "click-ui-switch30",
+  "category": "click",
+  "duration": 0.125,
+  "file": "click-ui-switch30.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch30"
+ },
+ {
+  "name": "click-ui-switch32",
+  "category": "click",
+  "duration": 0.232,
+  "file": "click-ui-switch32.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch32"
+ },
+ {
+  "name": "click-ui-switch34",
+  "category": "click",
+  "duration": 0.182,
+  "file": "click-ui-switch34.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch34"
+ },
+ {
+  "name": "click-ui-switch36",
+  "category": "click",
+  "duration": 0.046,
+  "file": "click-ui-switch36.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch36"
+ },
+ {
+  "name": "click-ui-switch38",
+  "category": "click",
+  "duration": 0.224,
+  "file": "click-ui-switch38.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch38"
+ },
+ {
+  "name": "click-ui-switch5",
+  "category": "click",
+  "duration": 0.132,
+  "file": "click-ui-switch5.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch5"
+ },
+ {
+  "name": "click-ui-switch7",
+  "category": "click",
+  "duration": 0.091,
+  "file": "click-ui-switch7.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch7"
+ },
+ {
+  "name": "click-ui-switch9",
+  "category": "click",
+  "duration": 0.07,
+  "file": "click-ui-switch9.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "switch9"
+ },
+ {
+  "name": "click",
+  "category": "click",
+  "duration": 0.036,
+  "file": "click.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "select_001 (copy of click-kenney-select-001)"
+ },
+ {
+  "name": "error",
+  "category": "ui",
+  "duration": 0.162,
+  "file": "error.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_001 (copy of ui-kenney-error-001)"
+ },
+ {
+  "name": "glitch-1",
+  "category": "scifi",
+  "duration": 1.073,
+  "file": "glitch-1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "zap2 (copy of scifi-digital-zap2)"
+ },
+ {
+  "name": "glitch-2",
+  "category": "misc",
+  "duration": 0.35,
+  "file": "glitch-2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "lowRandom (copy of misc-digital-lowrandom)"
+ },
+ {
+  "name": "glitch-3",
+  "category": "scifi",
+  "duration": 1.499,
+  "file": "glitch-3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "spaceTrash3 (copy of scifi-digital-spacetrash3)"
+ },
+ {
+  "name": "impact-bass-1",
+  "category": "impact",
+  "duration": 0.113,
+  "file": "impact-bass-1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_04 (copy of impact-bfh-bfh1-hit-04)"
+ },
+ {
+  "name": "impact-bass-2",
+  "category": "impact",
+  "duration": 0.058,
+  "file": "impact-bass-2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_hit_01 (copy of impact-bfh-bfh1-rock-hit-01)"
+ },
+ {
+  "name": "impact-bfh-bfh1-falling-01",
+  "category": "impact",
+  "duration": 0.833,
+  "file": "impact-bfh-bfh1-falling-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_falling_01"
+ },
+ {
+  "name": "impact-bfh-bfh1-falling-03",
+  "category": "impact",
+  "duration": 0.539,
+  "file": "impact-bfh-bfh1-falling-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_falling_03"
+ },
+ {
+  "name": "impact-bfh-bfh1-falling-05",
+  "category": "impact",
+  "duration": 0.656,
+  "file": "impact-bfh-bfh1-falling-05.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_falling_05"
+ },
+ {
+  "name": "impact-bfh-bfh1-falling-07",
+  "category": "impact",
+  "duration": 0.91,
+  "file": "impact-bfh-bfh1-falling-07.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_falling_07"
+ },
+ {
+  "name": "impact-bfh-bfh1-glass-falling-02",
+  "category": "impact",
+  "duration": 0.767,
+  "file": "impact-bfh-bfh1-glass-falling-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_glass_falling_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-glass-falling-04",
+  "category": "impact",
+  "duration": 0.48,
+  "file": "impact-bfh-bfh1-glass-falling-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_glass_falling_04"
+ },
+ {
+  "name": "impact-bfh-bfh1-glass-hit-02",
+  "category": "impact",
+  "duration": 0.217,
+  "file": "impact-bfh-bfh1-glass-hit-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_glass_hit_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-02",
+  "category": "impact",
+  "duration": 0.476,
+  "file": "impact-bfh-bfh1-hit-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-04",
+  "category": "impact",
+  "duration": 0.113,
+  "file": "impact-bfh-bfh1-hit-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_04"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-06",
+  "category": "impact",
+  "duration": 0.279,
+  "file": "impact-bfh-bfh1-hit-06.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_06"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-08",
+  "category": "impact",
+  "duration": 0.19,
+  "file": "impact-bfh-bfh1-hit-08.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_08"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-10",
+  "category": "impact",
+  "duration": 0.193,
+  "file": "impact-bfh-bfh1-hit-10.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_10"
+ },
+ {
+  "name": "impact-bfh-bfh1-hit-12",
+  "category": "impact",
+  "duration": 0.335,
+  "file": "impact-bfh-bfh1-hit-12.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_hit_12"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-falling-01",
+  "category": "impact",
+  "duration": 0.75,
+  "file": "impact-bfh-bfh1-metal-falling-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_falling_01"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-falling-03",
+  "category": "impact",
+  "duration": 0.221,
+  "file": "impact-bfh-bfh1-metal-falling-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_falling_03"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-falling-05",
+  "category": "impact",
+  "duration": 0.273,
+  "file": "impact-bfh-bfh1-metal-falling-05.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_falling_05"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-hit-02",
+  "category": "impact",
+  "duration": 0.274,
+  "file": "impact-bfh-bfh1-metal-hit-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_hit_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-hit-04",
+  "category": "impact",
+  "duration": 0.202,
+  "file": "impact-bfh-bfh1-metal-hit-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_hit_04"
+ },
+ {
+  "name": "impact-bfh-bfh1-metal-hit-06",
+  "category": "impact",
+  "duration": 0.197,
+  "file": "impact-bfh-bfh1-metal-hit-06.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_metal_hit_06"
+ },
+ {
+  "name": "impact-bfh-bfh1-rock-falling-02",
+  "category": "impact",
+  "duration": 0.274,
+  "file": "impact-bfh-bfh1-rock-falling-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_falling_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-rock-falling-04",
+  "category": "impact",
+  "duration": 0.146,
+  "file": "impact-bfh-bfh1-rock-falling-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_falling_04"
+ },
+ {
+  "name": "impact-bfh-bfh1-rock-falling-06",
+  "category": "impact",
+  "duration": 0.144,
+  "file": "impact-bfh-bfh1-rock-falling-06.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_falling_06"
+ },
+ {
+  "name": "impact-bfh-bfh1-rock-falling-08",
+  "category": "impact",
+  "duration": 0.261,
+  "file": "impact-bfh-bfh1-rock-falling-08.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_falling_08"
+ },
+ {
+  "name": "impact-bfh-bfh1-rock-hit-01",
+  "category": "impact",
+  "duration": 0.058,
+  "file": "impact-bfh-bfh1-rock-hit-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_rock_hit_01"
+ },
+ {
+  "name": "impact-bfh-bfh1-wood-falling-02",
+  "category": "impact",
+  "duration": 0.323,
+  "file": "impact-bfh-bfh1-wood-falling-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_wood_falling_02"
+ },
+ {
+  "name": "impact-bfh-bfh1-wood-hit-02",
+  "category": "impact",
+  "duration": 0.207,
+  "file": "impact-bfh-bfh1-wood-hit-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+  "title": "bfh1_wood_hit_02"
+ },
+ {
+  "name": "impact-cc0-metal-01",
+  "category": "impact",
+  "duration": 0.338,
+  "file": "impact-cc0-metal-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_01"
+ },
+ {
+  "name": "impact-cc0-metal-03",
+  "category": "impact",
+  "duration": 0.269,
+  "file": "impact-cc0-metal-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_03"
+ },
+ {
+  "name": "impact-cc0-metal-05",
+  "category": "impact",
+  "duration": 0.557,
+  "file": "impact-cc0-metal-05.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_05"
+ },
+ {
+  "name": "impact-cc0-metal-07",
+  "category": "impact",
+  "duration": 0.533,
+  "file": "impact-cc0-metal-07.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_07"
+ },
+ {
+  "name": "impact-cc0-metal-09",
+  "category": "impact",
+  "duration": 0.595,
+  "file": "impact-cc0-metal-09.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_09"
+ },
+ {
+  "name": "impact-cc0-metal-11",
+  "category": "impact",
+  "duration": 0.174,
+  "file": "impact-cc0-metal-11.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "metal_11"
+ },
+ {
+  "name": "impact-cc0-wooden-01",
+  "category": "impact",
+  "duration": 0.346,
+  "file": "impact-cc0-wooden-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "wooden_01"
+ },
+ {
+  "name": "impact-cc0-wooden-03",
+  "category": "impact",
+  "duration": 0.252,
+  "file": "impact-cc0-wooden-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "wooden_03"
+ },
+ {
+  "name": "key-press",
+  "category": "click",
+  "duration": 0.055,
+  "file": "key-press.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "tick_004 (copy of click-kenney-tick-004)"
+ },
+ {
+  "name": "misc-cc0-noise-01",
+  "category": "misc",
+  "duration": 0.292,
+  "file": "misc-cc0-noise-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "noise_01"
+ },
+ {
+  "name": "misc-cc0-other-01",
+  "category": "misc",
+  "duration": 0.672,
+  "file": "misc-cc0-other-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "other_01"
+ },
+ {
+  "name": "misc-cc0-other-03",
+  "category": "misc",
+  "duration": 0.317,
+  "file": "misc-cc0-other-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "other_03"
+ },
+ {
+  "name": "misc-cc0-other-05",
+  "category": "misc",
+  "duration": 0.258,
+  "file": "misc-cc0-other-05.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "other_05"
+ },
+ {
+  "name": "misc-cc0-other-07",
+  "category": "misc",
+  "duration": 0.464,
+  "file": "misc-cc0-other-07.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "other_07"
+ },
+ {
+  "name": "misc-digital-highdown",
+  "category": "misc",
+  "duration": 0.332,
+  "file": "misc-digital-highdown.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "highDown"
+ },
+ {
+  "name": "misc-digital-lowrandom",
+  "category": "misc",
+  "duration": 0.35,
+  "file": "misc-digital-lowrandom.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "lowRandom"
+ },
+ {
+  "name": "misc-digital-pepsound2",
+  "category": "misc",
+  "duration": 0.322,
+  "file": "misc-digital-pepsound2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "pepSound2"
+ },
+ {
+  "name": "misc-digital-pepsound5",
+  "category": "misc",
+  "duration": 0.381,
+  "file": "misc-digital-pepsound5.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "pepSound5"
+ },
+ {
+  "name": "misc-digital-phasejump3",
+  "category": "misc",
+  "duration": 0.352,
+  "file": "misc-digital-phasejump3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "phaseJump3"
+ },
+ {
+  "name": "misc-kenney-scratch-001",
+  "category": "misc",
+  "duration": 0.122,
+  "file": "misc-kenney-scratch-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scratch_001"
+ },
+ {
+  "name": "misc-kenney-scratch-002",
+  "category": "misc",
+  "duration": 0.122,
+  "file": "misc-kenney-scratch-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scratch_002"
+ },
+ {
+  "name": "misc-kenney-scratch-003",
+  "category": "misc",
+  "duration": 0.123,
+  "file": "misc-kenney-scratch-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scratch_003"
+ },
+ {
+  "name": "misc-kenney-scratch-004",
+  "category": "misc",
+  "duration": 0.289,
+  "file": "misc-kenney-scratch-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scratch_004"
+ },
+ {
+  "name": "misc-kenney-scratch-005",
+  "category": "misc",
+  "duration": 0.304,
+  "file": "misc-kenney-scratch-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scratch_005"
+ },
+ {
+  "name": "misc-ui-rollover2",
+  "category": "misc",
+  "duration": 0.034,
+  "file": "misc-ui-rollover2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks",
+  "title": "rollover2"
+ },
+ {
+  "name": "notification-cc0-bell-01",
+  "category": "notification",
+  "duration": 1.145,
+  "file": "notification-cc0-bell-01.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "bell_01"
+ },
+ {
+  "name": "notification-cc0-bell-03",
+  "category": "notification",
+  "duration": 1.189,
+  "file": "notification-cc0-bell-03.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "bell_03"
+ },
+ {
+  "name": "notification-cc0-glass-02",
+  "category": "notification",
+  "duration": 0.308,
+  "file": "notification-cc0-glass-02.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "glass_02"
+ },
+ {
+  "name": "notification-cc0-glass-04",
+  "category": "notification",
+  "duration": 0.545,
+  "file": "notification-cc0-glass-04.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "glass_04"
+ },
+ {
+  "name": "notification-kenney-bong-001",
+  "category": "notification",
+  "duration": 0.12,
+  "file": "notification-kenney-bong-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "bong_001"
+ },
+ {
+  "name": "notification-kenney-glass-001",
+  "category": "notification",
+  "duration": 0.253,
+  "file": "notification-kenney-glass-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_001"
+ },
+ {
+  "name": "notification-kenney-glass-002",
+  "category": "notification",
+  "duration": 0.122,
+  "file": "notification-kenney-glass-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_002"
+ },
+ {
+  "name": "notification-kenney-glass-003",
+  "category": "notification",
+  "duration": 0.121,
+  "file": "notification-kenney-glass-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_003"
+ },
+ {
+  "name": "notification-kenney-glass-004",
+  "category": "notification",
+  "duration": 0.647,
+  "file": "notification-kenney-glass-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_004"
+ },
+ {
+  "name": "notification-kenney-glass-005",
+  "category": "notification",
+  "duration": 0.061,
+  "file": "notification-kenney-glass-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_005"
+ },
+ {
+  "name": "notification-kenney-glass-006",
+  "category": "notification",
+  "duration": 0.062,
+  "file": "notification-kenney-glass-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_006"
+ },
+ {
+  "name": "notification-kenney-question-001",
+  "category": "notification",
+  "duration": 0.481,
+  "file": "notification-kenney-question-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "question_001"
+ },
+ {
+  "name": "notification-kenney-question-002",
+  "category": "notification",
+  "duration": 0.326,
+  "file": "notification-kenney-question-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "question_002"
+ },
+ {
+  "name": "notification-kenney-question-003",
+  "category": "notification",
+  "duration": 0.327,
+  "file": "notification-kenney-question-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "question_003"
+ },
+ {
+  "name": "notification-kenney-question-004",
+  "category": "notification",
+  "duration": 0.325,
+  "file": "notification-kenney-question-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "question_004"
+ },
+ {
+  "name": "notification",
+  "category": "notification",
+  "duration": 0.253,
+  "file": "notification.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_001 (copy of notification-kenney-glass-001)"
+ },
+ {
+  "name": "ping",
+  "category": "notification",
+  "duration": 0.308,
+  "file": "ping.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/100-cc0-sfx",
+  "title": "glass_02 (copy of notification-cc0-glass-02)"
+ },
+ {
+  "name": "pop-kenney-drop-001",
+  "category": "pop",
+  "duration": 0.108,
+  "file": "pop-kenney-drop-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "drop_001"
+ },
+ {
+  "name": "pop-kenney-drop-002",
+  "category": "pop",
+  "duration": 0.188,
+  "file": "pop-kenney-drop-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "drop_002"
+ },
+ {
+  "name": "pop-kenney-drop-003",
+  "category": "pop",
+  "duration": 0.188,
+  "file": "pop-kenney-drop-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "drop_003"
+ },
+ {
+  "name": "pop-kenney-drop-004",
+  "category": "pop",
+  "duration": 0.284,
+  "file": "pop-kenney-drop-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "drop_004"
+ },
+ {
+  "name": "pop-kenney-pluck-001",
+  "category": "pop",
+  "duration": 0.1,
+  "file": "pop-kenney-pluck-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "pluck_001"
+ },
+ {
+  "name": "pop-kenney-pluck-002",
+  "category": "pop",
+  "duration": 0.112,
+  "file": "pop-kenney-pluck-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "pluck_002"
+ },
+ {
+  "name": "pop",
+  "category": "pop",
+  "duration": 0.1,
+  "file": "pop.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "pluck_001 (copy of pop-kenney-pluck-001)"
+ },
+ {
+  "name": "riser-digital-powerup11",
+  "category": "riser",
+  "duration": 0.422,
+  "file": "riser-digital-powerup11.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "powerUp11"
+ },
+ {
+  "name": "riser-digital-powerup3",
+  "category": "riser",
+  "duration": 0.843,
+  "file": "riser-digital-powerup3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "powerUp3"
+ },
+ {
+  "name": "riser-digital-powerup6",
+  "category": "riser",
+  "duration": 0.154,
+  "file": "riser-digital-powerup6.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "powerUp6"
+ },
+ {
+  "name": "riser-digital-powerup9",
+  "category": "riser",
+  "duration": 0.275,
+  "file": "riser-digital-powerup9.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "powerUp9"
+ },
+ {
+  "name": "riser",
+  "category": "riser",
+  "duration": 0.154,
+  "file": "riser.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "powerUp6 (copy of riser-digital-powerup6)"
+ },
+ {
+  "name": "scifi-digital-laser2",
+  "category": "scifi",
+  "duration": 0.827,
+  "file": "scifi-digital-laser2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "laser2"
+ },
+ {
+  "name": "scifi-digital-laser5",
+  "category": "scifi",
+  "duration": 0.693,
+  "file": "scifi-digital-laser5.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "laser5"
+ },
+ {
+  "name": "scifi-digital-laser8",
+  "category": "scifi",
+  "duration": 0.472,
+  "file": "scifi-digital-laser8.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "laser8"
+ },
+ {
+  "name": "scifi-digital-phaserdown1",
+  "category": "scifi",
+  "duration": 0.33,
+  "file": "scifi-digital-phaserdown1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "phaserDown1"
+ },
+ {
+  "name": "scifi-digital-phaserup1",
+  "category": "scifi",
+  "duration": 0.385,
+  "file": "scifi-digital-phaserup1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "phaserUp1"
+ },
+ {
+  "name": "scifi-digital-phaserup4",
+  "category": "scifi",
+  "duration": 0.268,
+  "file": "scifi-digital-phaserup4.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "phaserUp4"
+ },
+ {
+  "name": "scifi-digital-phaserup7",
+  "category": "scifi",
+  "duration": 0.265,
+  "file": "scifi-digital-phaserup7.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "phaserUp7"
+ },
+ {
+  "name": "scifi-digital-spacetrash3",
+  "category": "scifi",
+  "duration": 1.499,
+  "file": "scifi-digital-spacetrash3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "spaceTrash3"
+ },
+ {
+  "name": "scifi-digital-threetone1",
+  "category": "scifi",
+  "duration": 0.567,
+  "file": "scifi-digital-threetone1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "threeTone1"
+ },
+ {
+  "name": "scifi-digital-twotone1",
+  "category": "scifi",
+  "duration": 0.439,
+  "file": "scifi-digital-twotone1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "twoTone1"
+ },
+ {
+  "name": "scifi-digital-zap2",
+  "category": "scifi",
+  "duration": 1.073,
+  "file": "scifi-digital-zap2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "zap2"
+ },
+ {
+  "name": "scifi-digital-zaptwotone",
+  "category": "scifi",
+  "duration": 1.073,
+  "file": "scifi-digital-zaptwotone.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc",
+  "title": "zapTwoTone"
+ },
+ {
+  "name": "sparkle",
+  "category": "notification",
+  "duration": 0.121,
+  "file": "sparkle.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "glass_003 (copy of notification-kenney-glass-003)"
+ },
+ {
+  "name": "transition-kenney-maximize-001",
+  "category": "transition",
+  "duration": 0.253,
+  "file": "transition-kenney-maximize-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_001"
+ },
+ {
+  "name": "transition-kenney-maximize-002",
+  "category": "transition",
+  "duration": 0.254,
+  "file": "transition-kenney-maximize-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_002"
+ },
+ {
+  "name": "transition-kenney-maximize-003",
+  "category": "transition",
+  "duration": 0.203,
+  "file": "transition-kenney-maximize-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_003"
+ },
+ {
+  "name": "transition-kenney-maximize-004",
+  "category": "transition",
+  "duration": 0.393,
+  "file": "transition-kenney-maximize-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_004"
+ },
+ {
+  "name": "transition-kenney-maximize-005",
+  "category": "transition",
+  "duration": 0.503,
+  "file": "transition-kenney-maximize-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_005"
+ },
+ {
+  "name": "transition-kenney-maximize-006",
+  "category": "transition",
+  "duration": 0.366,
+  "file": "transition-kenney-maximize-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_006"
+ },
+ {
+  "name": "transition-kenney-maximize-007",
+  "category": "transition",
+  "duration": 0.175,
+  "file": "transition-kenney-maximize-007.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_007"
+ },
+ {
+  "name": "transition-kenney-maximize-008",
+  "category": "transition",
+  "duration": 0.207,
+  "file": "transition-kenney-maximize-008.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_008"
+ },
+ {
+  "name": "transition-kenney-maximize-009",
+  "category": "transition",
+  "duration": 0.205,
+  "file": "transition-kenney-maximize-009.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "maximize_009"
+ },
+ {
+  "name": "transition-kenney-minimize-001",
+  "category": "transition",
+  "duration": 0.254,
+  "file": "transition-kenney-minimize-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_001"
+ },
+ {
+  "name": "transition-kenney-minimize-002",
+  "category": "transition",
+  "duration": 0.255,
+  "file": "transition-kenney-minimize-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_002"
+ },
+ {
+  "name": "transition-kenney-minimize-003",
+  "category": "transition",
+  "duration": 0.204,
+  "file": "transition-kenney-minimize-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_003"
+ },
+ {
+  "name": "transition-kenney-minimize-004",
+  "category": "transition",
+  "duration": 0.394,
+  "file": "transition-kenney-minimize-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_004"
+ },
+ {
+  "name": "transition-kenney-minimize-005",
+  "category": "transition",
+  "duration": 0.511,
+  "file": "transition-kenney-minimize-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_005"
+ },
+ {
+  "name": "transition-kenney-minimize-006",
+  "category": "transition",
+  "duration": 0.364,
+  "file": "transition-kenney-minimize-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_006"
+ },
+ {
+  "name": "transition-kenney-minimize-007",
+  "category": "transition",
+  "duration": 0.17,
+  "file": "transition-kenney-minimize-007.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_007"
+ },
+ {
+  "name": "transition-kenney-minimize-008",
+  "category": "transition",
+  "duration": 0.207,
+  "file": "transition-kenney-minimize-008.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_008"
+ },
+ {
+  "name": "transition-kenney-minimize-009",
+  "category": "transition",
+  "duration": 0.2,
+  "file": "transition-kenney-minimize-009.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "minimize_009"
+ },
+ {
+  "name": "typing",
+  "category": "click",
+  "duration": 0.957,
+  "file": "typing.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "scroll_001 (copy of click-kenney-scroll-001)"
+ },
+ {
+  "name": "ui-kenney-close-001",
+  "category": "ui",
+  "duration": 0.145,
+  "file": "ui-kenney-close-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "close_001"
+ },
+ {
+  "name": "ui-kenney-close-002",
+  "category": "ui",
+  "duration": 0.309,
+  "file": "ui-kenney-close-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "close_002"
+ },
+ {
+  "name": "ui-kenney-close-003",
+  "category": "ui",
+  "duration": 0.31,
+  "file": "ui-kenney-close-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "close_003"
+ },
+ {
+  "name": "ui-kenney-close-004",
+  "category": "ui",
+  "duration": 0.315,
+  "file": "ui-kenney-close-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "close_004"
+ },
+ {
+  "name": "ui-kenney-confirmation-001",
+  "category": "ui",
+  "duration": 0.286,
+  "file": "ui-kenney-confirmation-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "confirmation_001"
+ },
+ {
+  "name": "ui-kenney-confirmation-002",
+  "category": "ui",
+  "duration": 0.521,
+  "file": "ui-kenney-confirmation-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "confirmation_002"
+ },
+ {
+  "name": "ui-kenney-confirmation-003",
+  "category": "ui",
+  "duration": 0.314,
+  "file": "ui-kenney-confirmation-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "confirmation_003"
+ },
+ {
+  "name": "ui-kenney-confirmation-004",
+  "category": "ui",
+  "duration": 0.481,
+  "file": "ui-kenney-confirmation-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "confirmation_004"
+ },
+ {
+  "name": "ui-kenney-error-001",
+  "category": "ui",
+  "duration": 0.162,
+  "file": "ui-kenney-error-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_001"
+ },
+ {
+  "name": "ui-kenney-error-002",
+  "category": "ui",
+  "duration": 0.165,
+  "file": "ui-kenney-error-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_002"
+ },
+ {
+  "name": "ui-kenney-error-003",
+  "category": "ui",
+  "duration": 0.337,
+  "file": "ui-kenney-error-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_003"
+ },
+ {
+  "name": "ui-kenney-error-004",
+  "category": "ui",
+  "duration": 0.104,
+  "file": "ui-kenney-error-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_004"
+ },
+ {
+  "name": "ui-kenney-error-005",
+  "category": "ui",
+  "duration": 0.161,
+  "file": "ui-kenney-error-005.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_005"
+ },
+ {
+  "name": "ui-kenney-error-006",
+  "category": "ui",
+  "duration": 0.219,
+  "file": "ui-kenney-error-006.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_006"
+ },
+ {
+  "name": "ui-kenney-error-007",
+  "category": "ui",
+  "duration": 0.192,
+  "file": "ui-kenney-error-007.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_007"
+ },
+ {
+  "name": "ui-kenney-error-008",
+  "category": "ui",
+  "duration": 0.139,
+  "file": "ui-kenney-error-008.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "error_008"
+ },
+ {
+  "name": "ui-kenney-open-001",
+  "category": "ui",
+  "duration": 0.145,
+  "file": "ui-kenney-open-001.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "open_001"
+ },
+ {
+  "name": "ui-kenney-open-002",
+  "category": "ui",
+  "duration": 0.305,
+  "file": "ui-kenney-open-002.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "open_002"
+ },
+ {
+  "name": "ui-kenney-open-003",
+  "category": "ui",
+  "duration": 0.307,
+  "file": "ui-kenney-open-003.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "open_003"
+ },
+ {
+  "name": "ui-kenney-open-004",
+  "category": "ui",
+  "duration": 0.311,
+  "file": "ui-kenney-open-004.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/interface-sounds",
+  "title": "open_004"
+ },
+ {
+  "name": "whoosh-cinematic",
+  "category": "whoosh",
+  "duration": 0.123,
+  "file": "whoosh-cinematic.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-9 (copy of whoosh-swish-9)"
+ },
+ {
+  "name": "whoosh-short",
+  "category": "whoosh",
+  "duration": 0.113,
+  "file": "whoosh-short.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-7 (copy of whoosh-swish-7)"
+ },
+ {
+  "name": "whoosh-swish-1",
+  "category": "whoosh",
+  "duration": 0.098,
+  "file": "whoosh-swish-1.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-1"
+ },
+ {
+  "name": "whoosh-swish-10",
+  "category": "whoosh",
+  "duration": 0.081,
+  "file": "whoosh-swish-10.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-10"
+ },
+ {
+  "name": "whoosh-swish-11",
+  "category": "whoosh",
+  "duration": 0.07,
+  "file": "whoosh-swish-11.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-11"
+ },
+ {
+  "name": "whoosh-swish-12",
+  "category": "whoosh",
+  "duration": 0.061,
+  "file": "whoosh-swish-12.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-12"
+ },
+ {
+  "name": "whoosh-swish-13",
+  "category": "whoosh",
+  "duration": 0.061,
+  "file": "whoosh-swish-13.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-13"
+ },
+ {
+  "name": "whoosh-swish-2",
+  "category": "whoosh",
+  "duration": 0.074,
+  "file": "whoosh-swish-2.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-2"
+ },
+ {
+  "name": "whoosh-swish-3",
+  "category": "whoosh",
+  "duration": 0.105,
+  "file": "whoosh-swish-3.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-3"
+ },
+ {
+  "name": "whoosh-swish-4",
+  "category": "whoosh",
+  "duration": 0.096,
+  "file": "whoosh-swish-4.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-4"
+ },
+ {
+  "name": "whoosh-swish-5",
+  "category": "whoosh",
+  "duration": 0.094,
+  "file": "whoosh-swish-5.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-5"
+ },
+ {
+  "name": "whoosh-swish-6",
+  "category": "whoosh",
+  "duration": 0.098,
+  "file": "whoosh-swish-6.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-6"
+ },
+ {
+  "name": "whoosh-swish-7",
+  "category": "whoosh",
+  "duration": 0.113,
+  "file": "whoosh-swish-7.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-7"
+ },
+ {
+  "name": "whoosh-swish-8",
+  "category": "whoosh",
+  "duration": 0.118,
+  "file": "whoosh-swish-8.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-8"
+ },
+ {
+  "name": "whoosh-swish-9",
+  "category": "whoosh",
+  "duration": 0.123,
+  "file": "whoosh-swish-9.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-9"
+ },
+ {
+  "name": "whoosh",
+  "category": "whoosh",
+  "duration": 0.105,
+  "file": "whoosh.mp3",
+  "license": "CC0",
+  "source": "https://opengameart.org/content/swishes-sound-pack",
+  "title": "swish-3 (copy of whoosh-swish-3)"
+ }
+]

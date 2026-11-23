@@ -1,0 +1,30 @@
+#!/bin/sh
+# Free local narration (Qwen3-TTS through mlx-audio, Apple Silicon). No API key, no cost.
+#   say "Text to speak" out.wav [voice]        stock voice: Ryan (default), Aiden or Eric
+#   say "Text to speak" out.wav clone:me.wav   speak in the voice recorded in me.wav (10-20 s of clean speech)
+# Style: set SAY_STYLE="Warm, upbeat, a little faster" to steer delivery (stock voices only).
+set -eu
+[ $# -ge 2 ] || { sed -n 2,5p "$0"; exit 1; }
+text=$1; out=$2; voice=${3:-Ryan}
+here=$(cd "$(dirname "$0")/.." && pwd)
+py="$here/tts-venv/bin/python"
+[ -x "$py" ] || { echo "say: no voice model yet. Run ./setup.sh once (it makes tts-venv/)." >&2; exit 1; }
+tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
+case $voice in
+  clone:*)
+    ref=${voice#clone:}
+    reftext=$(whisper-cli -m "${WHISPER_MODEL:-$HOME/.cache/whisper/ggml-small.en.bin}" -f "$ref" -nt 2>/dev/null | tr -s ' \n' ' ')
+    "$py" -m mlx_audio.tts.generate --model mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16 \
+      --text "$text" --ref_audio "$ref" --ref_text "$reftext" \
+      --output_path "$tmp" --file_prefix line --audio_format wav >/dev/null 2>&1 ;;
+  *)
+    "$py" -m mlx_audio.tts.generate --model mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-6bit \
+      --text "$text" --voice "$voice" --instruct "${SAY_STYLE:-Calm, confident product narrator, natural pace}" \
+      --output_path "$tmp" --file_prefix line --audio_format wav >/dev/null 2>&1 ;;
+esac
+# join chunks, trim edge silence, normalise loudness to -16 LUFS (YouTube/LinkedIn speech level)
+ls "$tmp"/line_*.wav | sed "s/^/file '/; s/$/'/" > "$tmp/list.txt"
+ffmpeg -loglevel error -y -f concat -safe 0 -i "$tmp/list.txt" \
+  -af "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,loudnorm=I=-16:TP=-1.5:LRA=11" \
+  -ar 48000 "$out"
+echo "$out"

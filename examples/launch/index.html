@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>demo</title>
+<style>
+  @font-face { font-family: "Archivo"; src: url("assets/fonts/archivo.woff2") format("woff2"); font-weight: 100 900; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--bg); }
+  body { font-family: "Archivo", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .scene { position: absolute; inset: 0; visibility: hidden; overflow: hidden; }
+  .w { display: inline-block; }
+  .mono { font-family: Menlo, monospace; }
+
+  /* 1 · every demo looks the same */
+  #pain h1 { position: absolute; left: 150px; top: 150px; width: 1500px; margin: 0; font: 800 96px/1.05 "Archivo", sans-serif; letter-spacing: -0.03em; }
+  #pain .item { position: absolute; top: 470px; width: 460px; height: 300px; border-radius: 22px; background: var(--card); }
+  #pain .item .lab { position: absolute; left: 30px; bottom: 26px; font: 600 32px/1 "Archivo", sans-serif; color: var(--muted); }
+  #pain .slide { left: 150px; }
+  #pain .slide i { position: absolute; left: 40px; height: 16px; border-radius: 8px; background: var(--line); }
+  #pain .robot { left: 730px; }
+  #pain .robot .bars { position: absolute; left: 40px; right: 40px; top: 70px; height: 120px; display: flex; gap: 8px; align-items: center; }
+  #pain .robot .bars i { flex: 1; height: 50%; border-radius: 4px; background: var(--line); }
+  #pain .toy { left: 1310px; }
+  #pain .toy .note { position: absolute; left: 175px; top: 50px; font: 800 150px/1 "Archivo", sans-serif; color: var(--line); }
+  #pain .x { position: absolute; left: -20px; right: -20px; top: 140px; height: 12px; border-radius: 6px; background: var(--bad); transform-origin: 0 50%; }
+
+  /* 2 · reveal */
+  #reveal .cmd { position: absolute; left: 150px; top: 300px; font: 700 210px/1 Menlo, monospace; letter-spacing: -0.04em; color: var(--accent); }
+  #reveal .caret { display: inline-block; width: 110px; height: 190px; margin-left: 10px; vertical-align: -18px; background: var(--accent); }
+  #reveal .sub { position: absolute; left: 156px; top: 560px; width: 1400px; font: 600 64px/1.2 "Archivo", sans-serif; letter-spacing: -0.015em; }
+
+  /* 3 · how: four stations along one line */
+  #how .rail { position: absolute; left: 150px; right: 150px; top: 900px; height: 6px; border-radius: 3px; background: var(--line); }
+  #how .fill { position: absolute; left: 150px; top: 900px; width: 1620px; height: 6px; border-radius: 3px; background: var(--accent); transform-origin: 0 50%; }
+  #how .st { position: absolute; top: 190px; width: 372px; height: 600px; border-radius: 22px; background: var(--card); overflow: hidden; }
+  #how .st h3 { position: absolute; left: 30px; top: 26px; margin: 0; font: 700 40px/1 "Archivo", sans-serif; }
+  #how .st .body { position: absolute; left: 30px; right: 30px; top: 100px; bottom: 30px; }
+  #how .s1 { left: 150px; } #how .s2 { left: 566px; } #how .s3 { left: 982px; } #how .s4 { left: 1398px; }
+  #how .s1 p { margin: 0 0 26px; font: 500 31px/1.3 "Archivo", sans-serif; color: var(--muted); }
+  #how .wave { position: absolute; left: 0; right: 0; top: 60px; height: 300px; display: flex; gap: 3px; align-items: center; }
+  #how .wave i { flex: 1; border-radius: 2px; background: var(--accent); }
+  #how .s2 .meta { position: absolute; left: 0; bottom: 0; font: 500 24px/1.4 Menlo, monospace; color: var(--muted); }
+  #how .s3 .frame { position: absolute; left: 0; right: 0; top: 0; height: 360px; border-radius: 12px; overflow: hidden; }
+  #how .s3 .frame img { position: absolute; left: 0; top: 0; width: 1600px; height: 1000px; transform-origin: 0 0; }
+  #how .s3 .meta { position: absolute; left: 0; top: 390px; font: 500 24px/1.4 Menlo, monospace; color: var(--muted); }
+  #how .grid { position: absolute; left: 0; right: 0; top: 0; height: 360px; }
+  #how .grid i { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--line); }
+  #how .grid b { position: absolute; top: 100px; height: 160px; border-radius: 10px; background: var(--accent); }
+  #how .s4 .meta { position: absolute; left: 0; bottom: 0; font: 500 24px/1.4 Menlo, monospace; color: var(--muted); }
+
+  /* 4 · checks */
+  #checks .table { position: absolute; left: 150px; top: 150px; width: 820px; }
+  #checks .row { display: flex; align-items: center; height: 92px; border-bottom: 2px solid var(--line); font: 600 40px/1 "Archivo", sans-serif; }
+  #checks .row .n { width: 330px; }
+  #checks .row .s { width: 200px; font-family: Menlo, monospace; font-variant-numeric: tabular-nums; }
+  #checks .row .v { font: 700 30px/1 Menlo, monospace; }
+  #checks .lay { position: absolute; left: 1100px; top: 150px; width: 680px; height: 640px; border-radius: 22px; background: var(--card); }
+  #checks .box { position: absolute; border-radius: 14px; background: var(--line); }
+  #checks .ring { position: absolute; border: 5px solid var(--bad); border-radius: 18px; }
+  #checks .verdict { position: absolute; left: 1100px; top: 820px; font: 700 40px/1 Menlo, monospace; color: var(--bad); }
+
+  /* 5 · free */
+  #free .num { position: absolute; left: 150px; top: 140px; font: 800 260px/1 "Archivo", sans-serif; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+  #free .lab { position: absolute; left: 160px; top: 420px; font: 600 54px/1.2 "Archivo", sans-serif; color: var(--muted); }
+  #free .bank { position: absolute; left: 150px; top: 560px; width: 1620px; height: 280px; display: flex; gap: 4px; align-items: flex-end; }
+  #free .bank i { flex: 1; height: 100%; border-radius: 3px 3px 0 0; background: var(--line); transform-origin: 50% 100%; }
+  #free .cost { position: absolute; left: 1360px; top: 190px; padding: 26px 40px; border-radius: 99px; background: var(--accent); color: var(--bg); font: 800 84px/1 "Archivo", sans-serif; }
+
+  /* 6 · close */
+  #close .cmd { position: absolute; left: 150px; top: 330px; font: 700 160px/1 Menlo, monospace; letter-spacing: -0.04em; color: var(--accent); }
+  #close .url { position: absolute; left: 156px; top: 560px; font: 600 60px/1 Menlo, monospace; }
+  #close .made { position: absolute; left: 156px; top: 680px; font: 500 40px/1.2 "Archivo", sans-serif; color: var(--muted); }
+
+  #captions { position: absolute; left: 150px; right: 150px; top: 960px; font: 600 40px/1 "Archivo", sans-serif; color: var(--muted); visibility: hidden; }
+</style>
+</head>
+<body>
+  <section class="scene" id="pain">
+    <h1>Every AI demo video looks the same.</h1>
+    <div class="item slide"><i style="top:60px;width:300px"></i><i style="top:100px;width:220px"></i><i style="top:140px;width:260px"></i><div class="lab">Slides</div><div class="x" data-overlap-ok></div></div>
+    <div class="item robot"><div class="bars"></div><div class="lab">A robot voice</div><div class="x" data-overlap-ok></div></div>
+    <div class="item toy"><div class="note">♪</div><div class="lab">Toy-ad music</div><div class="x" data-overlap-ok></div></div>
+  </section>
+
+  <section class="scene" id="reveal">
+    <div class="cmd" data-brand>/demo<span class="caret"></span></div>
+    <div class="sub">A Claude Code skill that makes the whole film.</div>
+  </section>
+
+  <section class="scene" id="how">
+    <div class="st s1"><h3>Script</h3><div class="body"></div></div>
+    <div class="st s2"><h3>One voice</h3><div class="body"><div class="wave"></div><div class="meta">one take, 35.9 s<br>Qwen3-TTS, local</div></div></div>
+    <div class="st s3"><h3>Your real app</h3><div class="body"><div class="frame"><img src="assets/ref/app.jpg" alt=""></div><div class="meta">Playwright, timed frames<br>real clicks, no mockups</div></div></div>
+    <div class="st s4"><h3>On the beat</h3><div class="body"><div class="grid"></div><div class="meta">120 BPM, 15 frames a beat<br>off-beat: 0 ms</div></div></div>
+    <div class="rail"></div><div class="fill" data-overlap-ok></div>
+  </section>
+
+  <section class="scene" id="checks">
+    <div class="table"></div>
+    <div class="lay"><div class="box b1" data-overlap-ok style="left:60px;top:70px;width:420px;height:120px"></div><div class="box b2" data-overlap-ok style="left:60px;top:250px;width:560px;height:300px"></div><div class="ring" data-overlap-ok></div></div>
+    <div class="verdict">FAIL overlap</div>
+  </section>
+
+  <section class="scene" id="free">
+    <div class="num">0</div>
+    <div class="lab">recorded sounds, all CC0</div>
+    <div class="cost">$0</div>
+    <div class="bank"></div>
+  </section>
+
+  <section class="scene" id="close">
+    <div class="cmd" data-brand>/demo</div>
+    <div class="url">github.com/flawnull/claude-demo-skill</div>
+    <div class="made">This film was made with it. Source in examples/launch.</div>
+  </section>
+
+  <div id="captions"></div>
+
+  <script>window.VOICE = {}; window.PEAKS = []; window.SOUNDS = [];</script>
+  <script src="voice.js"></script>
+  <script src="data.js"></script>
+  <script src="engine/motion.js"></script>
+  <script src="film.js"></script>
+</body>
+</html>

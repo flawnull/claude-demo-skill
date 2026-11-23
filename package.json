@@ -1,0 +1,14 @@
+{
+  "name": "claude-demo-skill",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  },
+  "version": "0.1.0",
+  "description": "A Claude Code skill that turns a short brief into a finished product video: motion, voice, music, sound and real footage. Free and local.",
+  "license": "MIT"
+}

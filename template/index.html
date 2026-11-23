@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>film</title>
+<style>
+  /* Sizes use vmin: the viewport is the film frame, so 16:9, 9:16 and 1:1 all scale. */
+  html, body { margin: 0; width: __W__px; height: __H__px; overflow: hidden; background: var(--bg); }
+  body { font-family: "Avenir Next", "Helvetica Neue", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .scene { position: absolute; inset: 0; visibility: hidden; overflow: hidden; }
+  #hook h1 { position: absolute; left: 8vmin; top: 30vmin; margin: 0; font: 700 15vmin/0.95 "Avenir Next", sans-serif; letter-spacing: -0.04em; max-width: 80vw; }
+  #hook .bar { position: absolute; left: 8vmin; top: 66vmin; width: 40vmin; height: 2.2vmin; background: var(--accent); transform-origin: 0 50%; }
+  #product .win { position: absolute; left: 7vw; right: 7vw; top: 12vh; border-radius: 2.4vmin; overflow: hidden; background: var(--card);
+    box-shadow: 0 4vmin 9vmin rgba(0,0,0,.28); transform-origin: 50% 50%; }
+  #product .win .chrome { height: 4vmin; display: flex; gap: 1vmin; align-items: center; padding-left: 2vmin; }
+  #product .win .chrome i { width: 1.4vmin; height: 1.4vmin; border-radius: 50%; background: var(--muted); }
+  #product .win img { display: block; width: 100%; }
+  #product .tag { position: absolute; right: 8vmin; bottom: 10vmin; padding: 2vmin 3.4vmin; border-radius: 99vmin; background: var(--accent); color: var(--bg); font: 700 4.4vmin/1 "Avenir Next", sans-serif; }
+  #proof .num { position: absolute; left: 8vmin; top: 18vmin; font: 700 24vmin/1 "Avenir Next", sans-serif; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+  #proof .label { position: absolute; left: 9vmin; top: 44vmin; font: 500 5vmin/1.2 "Avenir Next", sans-serif; color: var(--muted); }
+  #proof .bars { position: absolute; right: 8vmin; bottom: 14vmin; display: flex; gap: 2.4vmin; align-items: flex-end; height: 50vmin; }
+  #proof .bars i { width: 7vmin; background: var(--accent); border-radius: 1vmin 1vmin 0 0; transform-origin: 50% 100%; }
+  #close .name { position: absolute; left: 8vmin; top: 34vmin; font: 700 13vmin/1 "Avenir Next", sans-serif; letter-spacing: -0.04em; }
+  #close .cta { position: absolute; left: 8vmin; top: 54vmin; font: 500 5vmin/1 Menlo, monospace; color: var(--muted); }
+  #captions { position: absolute; left: 8vmin; right: 8vmin; bottom: 7vmin; font: 700 6vmin/1 "Avenir Next", sans-serif; visibility: hidden; }
+</style>
+</head>
+<body>
+  <section class="scene" id="hook">
+    <h1>Say the problem in five words.</h1>
+    <div class="bar"></div>
+  </section>
+  <section class="scene" id="product">
+    <div class="win"><div class="chrome"><i></i><i></i><i></i></div><img src="assets/ref/screen.png" alt=""></div>
+    <div class="tag">The one feature</div>
+  </section>
+  <section class="scene" id="proof">
+    <div class="num">0</div>
+    <div class="label">a real number, with its unit</div>
+    <div class="bars"><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+  <section class="scene" id="close">
+    <div class="name">Product</div>
+    <div class="cta">product.com</div>
+  </section>
+  <div id="captions"></div>
+  <script>window.VOICE = {};</script>
+  <script src="voice.js"></script>
+  <script src="engine/motion.js"></script>
+  <script src="film.js"></script>
+</body>
+</html>
