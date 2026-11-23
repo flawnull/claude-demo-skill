@@ -1,11 +1,11 @@
 #!/bin/sh
 # Free local narration (Qwen3-TTS through mlx-audio, Apple Silicon). No API key, no cost.
-#   say "Text to speak" out.wav [voice]        stock voice: Ryan (default), Aiden or Eric
+#   say "Text to speak" out.wav [voice]        stock voice: Ono_Anna (default, warm female), Ryan, Aiden or Eric
 #   say "Text to speak" out.wav clone:me.wav   speak in the voice recorded in me.wav (10-20 s of clean speech)
 # Style: set SAY_STYLE="Warm, upbeat, a little faster" to steer delivery (stock voices only).
 set -eu
 [ $# -ge 2 ] || { sed -n 2,5p "$0"; exit 1; }
-text=$1; out=$2; voice=${3:-Ryan}
+text=$1; out=$2; voice=${3:-Ono_Anna}
 here=$(cd "$(dirname "$0")/.." && pwd)
 py="$here/tts-venv/bin/python"
 [ -x "$py" ] || { echo "say: no voice model yet. Run ./setup.sh once (it makes tts-venv/)." >&2; exit 1; }

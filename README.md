@@ -4,14 +4,14 @@ A Claude Code skill that turns a short brief into a finished product video: scri
 
 [![The launch film for this repo, made with /demo](media/preview.gif)](media/demo.mp4)
 
-▶ [Watch the 46 s launch film](media/demo.mp4). It was made with this skill; the source is in [`examples/launch`](examples/launch).
+▶ [Watch the 48 s launch film](media/demo.mp4). It was made with this skill; the source is in [`examples/launch`](examples/launch).
 
 ## Why
 
 AI-made demo videos all look the same: slides, a robot voice, music from a toy ad, text that fades in from nowhere. This skill holds the film to the rules a motion designer works by, and it checks its own output before you see it.
 
 - **Cuts on the beat.** Scenes are measured in beats. Every cut and hit lands on a whole frame of the music's grid, and the build reports how far off it is (`off-beat: 0 ms`).
-- **One voice, one take.** The whole script is voiced in a single TTS pass, then cut by word timings, so tone and pace never change mid-film. Pop-ins land on the spoken word.
+- **A voice that acts, not reads.** Each line gets a direction (hushed, lifted, firm, warm) and the words to stress, voiced by one warm narrator. Pace and loudness are checked line against line, so it never drifts. Pop-ins land on the spoken word.
 - **Your real app.** Footage comes from Playwright driving your actual product, with a visible cursor and timed frames. Waits are cut out and labelled "Sped up 32×". No fake UI.
 - **Real physics.** Closed-form springs, anticipation, squash, 3-frame staggers and motion blur only while something travels. Each frame is a pure function of time, so every render is identical.
 - **A critic that re-renders.** Every scene is scored out of 10 for dead frames, motion that misses its cue, and moves that feel linear. Anything under 8 gets fixed and rendered again.
@@ -61,7 +61,7 @@ It fixes the failing scenes, re-renders only those, and stops when every scene i
 | `SKILL.md` | The instructions Claude follows: brief, script, voice, footage, motion, sound, checks |
 | `engine/motion.js` | Frame engine: springs, `move` with anticipation, kinetic type, captions, clear glass, beat grid |
 | `scripts/film.mjs` | One command: lint, capture, beat check, critic, layout QA, stitch |
-| `scripts/voice.mjs` | One-take narration cut into lines by word timings (`--tempo`, `--style`) |
+| `scripts/voice.mjs` | Directed narration: per-line direction and stress, pace check, `--only`, `--tempo` |
 | `lib/record.mjs` | Real web footage: cursor, eased moves, timed frames that never drift |
 | `scripts/name-check.mjs` | Checks a made-up product name against the App Store and GitHub |
 | `sfx/` | 210 recorded sounds, all CC0, indexed by kind and length |
@@ -79,7 +79,7 @@ It fixes the failing scenes, re-renders only those, and stops when every scene i
 npm test
 ```
 
-226 tests. The pipeline tests run against real Chromium and ffmpeg, not mocks.
+244 tests. The pipeline tests run against real Chromium and ffmpeg, not mocks.
 
 ## Credits and licence
 

@@ -107,11 +107,12 @@ This copies `template/` (index.html, film.js) and the engine into `<dir>`. Put t
 ## 4. Voice (free, local)
 
 ```
-node $D/scripts/voice.mjs <dir> lines.json [--voice Ryan|Aiden|Eric|clone:me.wav] [--style "Warm, upbeat"]
+node $D/scripts/voice.mjs <dir> lines.json [--voice Ono_Anna|Ryan|Aiden|Eric|clone:me.wav] [--style "Warm, upbeat"]
 ```
 
 `lines.json` is `[{ "id": "hook", "text": "..." }]`. The script writes `assets/vo/<id>.wav`, word timings, and `voice.js` (`window.VOICE`). It uses Qwen3-TTS through `tools/say` and whisper word timings (`./setup.sh` installs both).
-- **One voice, one style, one take.** The whole script is generated in a single pass and cut into lines at the pauses, so the voice, pace and energy never change between lines. Never mix voices or reuse lines from another film's take. Default style: a confident, focused founder voice, steady pace. `--per-line` exists but drifts.
+- **Act each section (directed).** A flat read where every line sounds the same is the default AI tell. Give every line in `lines.json` a `direction` (how this moment is said: hushed, lifted, firm, warm) and `stress` (the 1 to 3 words that carry it). Then each line is acted on its own with the same voice and base style, at the same loudness, and a line whose pace drifts more than 25% from the rest is flagged. Fix one line with `--only <id>`. Listen-check: the pain line should sound different from the reveal, and numbers should land.
+- **One voice, one style, one take** (when no line has a direction). The whole script is generated in a single pass and cut into lines at the pauses, so the voice, pace and energy never change between lines. Never mix voices or reuse lines from another film's take. Default voice: Ono_Anna, a warm, gentle female narrator, calm and quietly persuasive (the other stock voices have stronger accents). The default style asks for a brisk launch pace; add `--tempo 1.1` for a little more (stay at 1.2 or below, or the voice sounds processed). `--reuse-take --tempo X` re-cuts from `take-raw.wav` without regenerating. `--per-line` exists but drifts.
 - To clone a voice, the user records about 15 s into `me.wav`.
 - ElevenLabs runs only with `--provider elevenlabs` and an `ELEVENLABS_API_KEY` the user already has. Never suggest buying one. Never ship Kokoro.
 

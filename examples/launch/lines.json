@@ -1,8 +1,59 @@
 [
- { "id": "pain", "text": "Every AI demo video looks the same. Slides, a robot voice, and music from a toy ad." },
- { "id": "reveal", "text": "So we built demo. A Claude Code skill that makes the whole film." },
- { "id": "how", "text": "Give it a brief. It writes the script, voices it in one take, records your real app, and lands every cut on the beat." },
- { "id": "checks", "text": "Then it checks its own work. Any scene under eight out of ten gets rendered again. Any overlap fails the build." },
- { "id": "free", "text": "Two hundred and ten recorded sounds. Free, and on your machine." },
- { "id": "close", "text": "This film was made with it. It's on GitHub." }
+ {
+  "id": "pain",
+  "text": "Every AI demo video looks the same. Slides, a robot voice, and music from a toy ad.",
+  "direction": "A little tired and wry, like you've seen it a hundred times.",
+  "stress": [
+   "same",
+   "robot voice",
+   "toy ad"
+  ]
+ },
+ {
+  "id": "reveal",
+  "text": "So we built demo. A Claude Code skill that makes the whole film.",
+  "direction": "Lift: brighter and warmer, a hint of pride. Unhurried, let it land.",
+  "stress": [
+   "demo",
+   "whole film"
+  ]
+ },
+ {
+  "id": "how",
+  "text": "Give it a brief. It writes the script, acts out every line, records your real app, and lands every cut on the beat.",
+  "direction": "Clear and even, walking through the steps one by one. Not rushed: a small breath at each comma.",
+  "stress": [
+   "acts out every line",
+   "real app",
+   "on the beat"
+  ]
+ },
+ {
+  "id": "checks",
+  "text": "Then it checks its own work. Any scene under eight out of ten gets rendered again. Any overlap fails the build.",
+  "direction": "Calm and exact, quietly confident. Measured pace, a short pause after 'its own work'.",
+  "stress": [
+   "its own work",
+   "eight out of ten",
+   "fails"
+  ]
+ },
+ {
+  "id": "free",
+  "text": "Two hundred and ten recorded sounds. Free, and on your machine.",
+  "direction": "Warm and generous, a small smile.",
+  "stress": [
+   "Free",
+   "your machine"
+  ]
+ },
+ {
+  "id": "close",
+  "text": "This film was made with it. It's on GitHub.",
+  "direction": "Soft and proud, slow and gentle, a pause after the first sentence.",
+  "stress": [
+   "made with it",
+   "GitHub"
+  ]
+ }
 ]

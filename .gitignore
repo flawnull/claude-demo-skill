@@ -8,3 +8,4 @@ examples/*/assets/vo/take*.wav
 examples/*/assets/vo/*.words.json
 examples/*/voice.log
 examples/*/build-run.log
+examples/*/assets/vo/*-raw.wav

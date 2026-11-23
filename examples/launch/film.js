@@ -95,13 +95,13 @@ M.film({
         const cmd = p.$(".cmd");
         // typed, one key per frame-triple, landing the last key on "demo"
         const keys = "/demo";
-        const t0 = LEAD, gap = (tD - t0) / (keys.length - 1);
+        const t0 = T("reveal", "So"), gap = (tD - t0) / (keys.length - 1);
         const n = p.t < t0 ? 0 : Math.min(keys.length, Math.floor((p.t - t0) / gap) + 1);
         cmd.firstChild.textContent = keys.slice(0, n);
         const kick = pop(p.t, t0 + Math.max(0, n - 1) * gap, "snap");
         M.set(p.$(".caret"), { sx: 0.6 + 0.4 * kick });
         M.set(p.$(".caret"), { opacity: (Math.floor(p.t / SPB) % 2 === 0 || p.t < tD + 0.3) ? 1 : 0 });
-        enter(cmd, p.t, LEAD - 0.05, { dy: 80 });
+        enter(cmd, p.t, 0, { dy: 80 }); // the caret lands on the cut
         M.kinetic(M.splitWords(p.$(".sub")), p.t, { times: M.splitWords(p.$(".sub")).map((_, i) => T("reveal", "A") + i * (3 / FPS) * 1.4), rise: 40, preset: "snap" });
         // exit: the command slides up and out as the stations rise
         [cmd, p.$(".sub")].forEach((el, k) => out(el, p.t, p.b(BEATS.reveal - 1.5) + k * (3 / FPS)));
@@ -111,7 +111,7 @@ M.film({
       id: "how", beats: BEATS.how,
       render(p) {
         const st = p.$$(".st");
-        const cue = [T("how", "script,"), T("how", "voices"), T("how", "records"), T("how", "lands")];
+        const cue = [T("how", "script,"), T("how", "acts"), T("how", "records"), T("how", "lands")];
         st.forEach((s, i) => enter(s, p.t, T("how", "Give") + i * (3 / FPS), { dy: 90 }));
         // the rail fills station by station, on the words
         const k = cue.reduce((acc, c, i) => acc + M.clamp(pop(p.t, c, "snap")) * 0.25, 0);
