@@ -123,3 +123,28 @@ describe("objects start apart, not together", () => {
   });
   test("the first object starts at the given time", () => assert.equal(M.staggerTimes(2, 1.5)[0], 1.5));
 });
+
+describe("line drawing and calm reveal are closed form", () => {
+  test("a stroke is hidden before it starts and complete after", () => {
+    assert.equal(M.drawn(0, 1, 0.8), 0);
+    assert.equal(M.drawn(2, 1, 0.8), 1);
+    const mid = M.drawn(1.4, 1, 0.8);
+    assert.ok(mid > 0.5 && mid < 1, String(mid));
+  });
+  test("drawing the same time twice gives the same frame", () => assert.equal(M.drawn(1.3, 1, 0.8), M.drawn(1.3, 1, 0.8)));
+  test("draw sets a unit path length and the dash offset", () => {
+    const attrs = {}, el = { style: {}, getAttribute: (k) => attrs[k], setAttribute: (k, v) => { attrs[k] = v; } };
+    M.draw(el, 2, 1, 0.8);
+    assert.equal(attrs.pathLength, "1");
+    assert.equal(el.style.strokeDashoffset, "0");
+    M.draw(el, 0, 1, 0.8);
+    assert.equal(el.style.strokeDashoffset, "1");
+    assert.equal(el.style.opacity, "0");
+  });
+  test("a reveal starts hidden and low, and settles visible in place", () => {
+    const a = M.revealAt(0, 0.5), z = M.revealAt(5, 0.5);
+    assert.equal(a.opacity, 0);
+    assert.ok(a.y > 20);
+    assert.ok(Math.abs(z.opacity - 1) < 1e-3 && Math.abs(z.y) < 0.1);
+  });
+});

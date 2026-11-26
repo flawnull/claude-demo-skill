@@ -73,3 +73,12 @@ describe("AI-slop looks are flagged", () => {
   test("a coloured shadow is flagged as glow", () => assert.ok(rules(ok + "\nh1 { text-shadow: 0 0 30px var(--accent); }").includes("glow")));
   test("a neutral shadow is fine", () => assert.ok(!rules(ok + "\n.c { box-shadow: 0 40px 90px rgba(0, 0, 0, 0.45); }").includes("glow")));
 });
+
+describe("calm style", () => {
+  const calm = ok.replace("M.kinetic(M.splitWords(h), t, {}); M.springUnit(t);", 'const style = { style: "calm" }; M.reveal(h1, t, 0);');
+  test("a calm film without kinetic type is clean", () => assert.deepEqual(rules(calm), []));
+  test("without the calm style, missing kinetic type is still flagged", () => {
+    assert.ok(rules(calm.replace('style: "calm"', 'style: "minimal"')).includes("kinetic-type"));
+  });
+  test("reveal counts as spring motion", () => assert.ok(!rules(calm).includes("physics")));
+});

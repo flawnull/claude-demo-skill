@@ -9,6 +9,17 @@ The user gives a brief (or a path, a URL or a goal) and gets a finished MP4. Do 
 
 Skill folder: `~/.claude/skills/demo` (written `$D` below). Run scripts as `node $D/scripts/<name>.mjs`.
 
+The rules below are guidance and hard-won lessons, not a cage. Invent when it serves the film, and say why you broke a rule. Before writing the script, look at two or three videos the user or team admires and note what they show in the first ten seconds, where people appear, and how the product enters.
+
+## 0. Judged videos (hackathons, pitches, competitions): win first
+
+Judges score what they can see in under a minute, and the video can only show what exists. Before any film work:
+1. **Real limits.** Read the submission form, not only the brief. (A brief said 3:00; the form capped videos at 2:30.)
+2. **Every criterion has visible evidence**: a screen, a log line, a report or a file a judge finds in under a minute. Hidden quality scores as missing. (A project had 449 tests and ran about 10 checks per read, but its log said only "all checks passed", and a judge marked testing as weak.)
+3. **Every capability the brief names is used and shown.** If it says "use a model to learn, check and repair", all three must be on screen.
+4. **Evaluation results are committed**, not git-ignored. Every number in the film points to a file.
+If any fail and there is time, tell the user what to fix in the product before filming. That buys more points than any edit.
+
 ## 1. The brief
 
 Fill this in from the request, the project and memory. Ask once, in one AskUserQuestion call with at most 3 questions, only for what's missing and decisive:
@@ -16,7 +27,7 @@ Fill this in from the request, the project and memory. Ask once, in one AskUserQ
 ```
 TYPE:        launch film for <product>   | walkthrough | on-camera
 LENGTH:      40 s, 16:9                  (16:9, 9:16, 1:1, 4:5; check the real platform limit)
-STYLE:       minimal + kinetic type      (or: cartoon + kinetic type, editorial, data)
+STYLE:       minimal + kinetic type      (or: cartoon + kinetic type, editorial, data, calm)
 PALETTE:     bg, accent (the brand), bad (means bad news: money leaving, a deadline), + ink/muted
 FONTS:       two, kept for the whole film
 OPENING:     the viewer's pain (a number, a word, a moment); the product name comes later
@@ -24,6 +35,7 @@ REFERENCES:  real screenshots, logo, product images, brand files   (required)
 VOICE:       AI narrator (free, local) | my cloned voice | none (music + captions)
 MUSIC:       a CC0 track and its BPM
 ENDING:      what the last 2 s show (name + one action)
+HUMANS:      what the team films: the problem in the real world, someone using it in person, a face-cam
 TRANSITIONS: may invent one for this film, e.g. a "zoom through the output", a "tile becomes the window"
 ```
 
@@ -33,6 +45,13 @@ Pick the mode:
 - **Motion film** (default for launch, promo, pitch, explainer): sections 2 to 7.
 - **Walkthrough** of a web app with real clicks: real footage (section 3b) recorded with `lib/record.mjs`, then voice and sound as in sections 4 and 5. Footage can also sit inside a motion film as a reference asset.
 - **On-camera**: section 8.
+
+**Aim for the strongest shape: problem, people, product.** The films that win usually show all three:
+1. The problem in the real world: the place, the person, the moment it hurts, filmed for real (a phone is enough).
+2. People using it: someone working through the real use case in person, and the presenter's face in a corner box over the screen recording, talking while they click.
+3. The product: clean, readable footage or rebuilt screens.
+
+You can't film people, so split the work. You write the script, a shot list for the team (`humans.md`: each shot with where, who, what happens, length, framing, and the scene it belongs to; doable in 30 minutes) and build everything else. The team films the real-world shots and records the demo with the camera on (QuickTime, OBS or Loom). Lay the face-cam over the footage in a corner, about a fifth of the frame wide, rounded, with a margin, and keep it clear of the UI that matters (QA's face check helps). A back-end or technical product still has a human story: who suffers when it fails, and who sees the fix. A teammate can play that person; say so if it's staged. Never drop the human shots because the pipeline makes motion easier.
 
 ## 2. Script, voice, characters, beats
 
@@ -71,6 +90,7 @@ This copies `template/` (index.html, film.js) and the engine into `<dir>`. Put t
 - `beats({bpm, fps, offset})`, `film({ scenes, audio, hits, cues, captions, palette })`. In a scene's `render(p)`, `p.t` is seconds into the scene and `p.b(n)` is beat n of the scene.
 - `move(t, start, from, to)`: anticipation, then spring. Every object pulls back about 12% for 3 frames before it travels. Use it for anything that moves.
 - `set(el, { mb: [vx, vy] })`: motion blur along the move (SVG directional blur, a quarter frame of travel, capped at 8 px, none on slow moves). Get the velocity with `vel(fn, t)` or `springVelocity`. Blur is seasoning: a fast move smears for 2 or 3 frames, then it's sharp. Extra `blur:` on exits and landings stays at 6 px or less.
+- `draw(el, t, t0, dur)`: an SVG stroke draws itself on (closed form). `reveal(el, t, start)`: a whole line rises and fades in on a gentle spring, the calm alternative to kinetic type.
 - `splitWords`, `kinetic(spans, t, {times | start})`: kinetic type. Each word dips, springs up, stretches and blurs along its move. Words start 3 frames apart unless `times` puts them on spoken words.
 - Objects never start on the same frame: stagger them by 3 frames (`3 / fps`).
 - `wordTime(words, "word")`, `shiftWords`, captions with the spoken word highlighted.
@@ -88,6 +108,8 @@ This copies `template/` (index.html, film.js) and the engine into `<dir>`. Put t
 
 **Rebuild real screens.** UI comes from real screenshots of the product (`assets/ref/`), rebuilt in HTML so it can move. Use specific, believable values: odd cents, real dates. Add the small real details: a URL bar, tabs, status labels ("connecting"). No generic dashboard, no "99%", no donut chart.
 
+**Calm style.** For launch films that should feel trustworthy: a warm paper background, ink type, one accent, music-led, few sounds. Set `style: "calm"` in `film.js`. Lines arrive whole with `Motion.reveal(el, t, start)` (a gentle rise and fade); per-word `kinetic` is optional there, at most for one hero line, because a pop on every word gets tiring fast. Pair each idea with a generated line drawing (inline SVG: ink outlines, the accent stroke last), drawn on with `Motion.draw(el, t, t0, dur)`, then cut to the real product doing it. A drawing explains; the footage proves.
+
 **Glass, only clear.** Frosted blur glass is the AI look. When a scene calls for glass, use `Motion.glass(el)`: clear liquid glass with no blur, where what's underneath bends at the edges (SVG displacement map as the backdrop-filter, saturate(180%), 5% white tint, 1 px top highlight). Put busy detail underneath (text, a grid, a chart) and slide the glass over it so the bending moves. Never put `filter`, `opacity` or `clip-path` on the glass's parent; QA reports it.
 
 **Design.**
@@ -101,7 +123,9 @@ This copies `template/` (index.html, film.js) and the engine into `<dir>`. Put t
 
 - **Web app:** drive the real app with Playwright and record it with `lib/record.mjs` (`record(page, out)`, `rec.glide(locator, { click: true })`, `rec.mark("saved")`, `rec.stop()`). It grabs timed screenshots with a visible cursor, so marks never drift on long idle waits (Playwright's screencast stops writing frames while the page is still). Cut the waits with ffmpeg `trim` + `setpts`, label them "Sped up N×" on screen, and play the frames with `Motion.sequence`. Hold the opening for at least 1 s. Frame the content column, not the page's left edge.
 - **CLI:** VHS (`vhs file.tape`) at 3200x1940, FontSize 64, `WindowBarSize 84`, `MarginFill` set to the background colour. Do setup in a hidden `source` step. VHS strings can't escape quotes, so use backtick strings. Use a fast `TypingSpeed` (about 13 ms) so output appears early. The last frame (`ffmpeg -sseof -0.05`) makes a good still for `assets/ref/`.
+- **Footage lessons:** bring a row into view by typing into the app's own search (it reads as a deliberate action; a page jump looks like a glitch). When the same text appears twice (table and side panel), select with `>> visible=true`. Full-window dashboard text is unreadable at 1080p: push in 1.3 to 1.4 times on the panel the line is about. Recordings run 1.5 to 2 times longer than planned; time them before setting scene lengths.
 - **Sample data must look real:** realistic names, uneven distributions and varied dates, run in memory. No test fixtures on screen.
+- **Label it honestly:** when demo mode puts invented statuses on real names, show "Sample data" on those scenes. A lab or test number gets a dated footnote ("Lab evaluation on 8 portals, 21 Nov 2026").
 - **Privacy:** no home paths, usernames, real tokens or customer data. Run CLIs from `/tmp/<name>`.
 
 ## 4. Voice (free, local)

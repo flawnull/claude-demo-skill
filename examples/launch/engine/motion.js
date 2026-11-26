@@ -541,12 +541,44 @@
     return { renderFrame, meta, grid, layout: laid };
   }
 
+  /**
+   * Line drawing: a stroke draws itself on from t0 over dur seconds (closed form, no state).
+   * Works on any SVG shape. Returns the drawn fraction, 0 to 1. Use it for generated SVG
+   * illustrations between footage scenes: ink outlines first, the accent stroke last.
+   */
+  function drawn(t, t0, dur, easing = ease.outQuart) {
+    return easing(clamp((t - t0) / Math.max(dur, 1e-6), 0, 1));
+  }
+  function draw(el, t, t0, dur, easing) {
+    const p = drawn(t, t0, dur, easing);
+    if (el.getAttribute("pathLength") !== "1") el.setAttribute("pathLength", "1");
+    el.style.strokeDasharray = "1 1";
+    el.style.strokeDashoffset = String(1 - p);
+    el.style.opacity = p > 0 ? "1" : "0";
+    return p;
+  }
+
+  /**
+   * Calm reveal: a whole line rises a little and fades in on a gentle spring, no per-word pop.
+   * The quiet alternative to kinetic(): use it when the style is "calm" or for long lines.
+   */
+  function revealAt(t, start, { rise = 24, preset = "gentle" } = {}) {
+    const k = springUnit(t - start, { preset });
+    return { opacity: clamp(k, 0, 1), y: (1 - k) * rise };
+  }
+  function reveal(el, t, start, opts) {
+    const r = revealAt(t, start, opts);
+    el.style.opacity = String(r.opacity);
+    el.style.transform = `translateY(${r.y.toFixed(2)}px)`;
+    return r;
+  }
+
   const Motion = {
     clamp, lerp, progress, ease, tween,
     SPRINGS, springUnit, spring, springVelocity, springSettle, squash,
     beats, frameExactBpms, rng, layout, activeScenes,
     captionGroups, captionAt, wordTime, shiftWords, sequence, faceAt, vel, move, motionBlurStd, staggerTimes, glass,
-    set, splitWords, kinetic, film,
+    set, splitWords, kinetic, film, drawn, draw, revealAt, reveal,
   };
   if (typeof module !== "undefined" && module.exports) module.exports = Motion;
   root.Motion = Motion;
